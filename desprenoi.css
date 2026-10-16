@@ -1,0 +1,146 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('star.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#top{
+
+    text-align: center;
+    font-family:fantasy;
+    font-size: 20px;
+    background-color: #6c867d;
+    color:#1f484c;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+
+
+}
+div>p{
+    margin-top:40px;
+}
+
+div+section{
+    margin-top: 70px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 25px;
+    color:#1f484c;
+    
+}
+
+
+#searchbar{
+
+    background-color: #6c867d;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    border-radius: 15px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: #913c5f89;
+   
+}
+
+#searchbar::placeholder{
+    text-align: center;
+
+}
+
+#subm{
+    font-size: 30px;
+    margin-left:20px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    font-family: fantasy;
+    background-color: #6c867d;
+    border-color: #913c5f89;
+    color:#1f484c;
+
+}
+#subm:hover{
+    cursor:pointer;
+}
+
+.text{
+
+
+    background-color: #913c5f5d;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    margin-right: 100px;
+    margin-left: 80px;
+    padding-left:30px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-right: 60px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.374);
+    color: #1f484c;
+
+    
+}
+
+
+.home{
+
+    height:60px;
+    width: 120px;
+    background-color:#9a295882;
+    border-style: solid;
+    color:#1f484c;
+    border-color: #1f484c;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:25px;
+    margin-left: 5px;
+    transition: color 1s, background-color 1s, box-shadow 1s;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+    margin-left: 20px;
+    position:absolute;
+  
+
+}
+
+
+.home:hover{
+
+    color: #eff0f0;
+    background-color: #1f484c;  
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.18);
+    background-image: url('buton2.gif');
+    background-position: center;
+    background-size: cover;
+    transform: scale(1.2);        
+    
+
+}
+
+
+.home:active{
+    background-color: #1f484c;
+    transform: scale(1.3);       
+
+}

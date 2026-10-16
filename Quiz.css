@@ -1,0 +1,254 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('floare.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#top{
+
+    text-align: center;
+    font-family:fantasy;
+    font-size: 20px;
+    background-color: #6c867d;
+    color:#1f484c;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+div p{
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+
+div h2{
+  
+  animation: animatieQuiz 3s ease-in-out 4 alternate;
+}
+
+
+
+    @keyframes animatieQuiz {
+      0% {
+        color: #1f484c;
+        font-size: 2em;
+        left: 0px;
+        opacity: 0.5;
+      }
+      50% {
+        color: #bfbba0;
+        font-size: 2.5em;
+        left: 30px;
+        opacity: 0.8;
+      }
+      100% {
+        color: #e08bb1;
+        font-size: 3em;
+        left: 60px;
+        opacity: 1;
+      }
+    }
+
+
+#searchbar{
+
+    background-color: #6c867d;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-radius: 15px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: #913c5f89;
+   
+}
+
+#searchbar::placeholder{
+    text-align: center;
+
+} 
+
+ #subm{
+    font-size: 30px;
+    margin-left:20px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    font-family: fantasy;
+    background-color: #6c867d;
+    border-color: #877393;
+    color:#1f484c;
+
+}
+#subm:hover{
+    cursor:pointer;
+} 
+
+
+.continut{
+
+    background-color: #87739397;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    margin: 4rem auto;
+    padding: 3rem 2rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.374);
+    color: #1f484c;
+    max-width: 900px; 
+    width: 90%;       
+
+    
+}
+
+
+.home{
+
+    height:60px;
+    width: 120px;
+    background-color:#877393;
+    border-style: solid;
+    color:#1f484c;
+    border-color: #1f484c;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:25px;
+    margin-left: 5px;
+    transition: color 1s, background-color 1s, box-shadow 1s;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+    margin-left: 20px;
+    position:absolute;
+  
+
+}
+
+
+.home:hover{
+
+    color: #b8ab6e;
+    background-color: #1f484c;  
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.18);
+    background-image: url('x.gif');
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+
+.home:active{
+    background-color: #1f484c;
+}
+
+#start_btn{
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border-style: solid;
+    font-family: fantasy;
+    background-color: #6c867d;
+    border-color: #cab2b2;
+    color:#1f484c;
+    cursor: pointer;
+}
+#start_btn:hover{
+    background-image: url('x.gif');
+    color:#b8ab6e;
+}
+
+#start_btn:active{
+    background-color: #1f484c;
+    color:#b8ab6e;
+}
+
+footer{
+    margin: 2rem auto;
+    max-width: 90%;
+    text-align: center;
+    font-family: fantasy;
+    color: #144630;
+    font-size: 20px;
+    background-color: #b2857177;
+    border-radius: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
+    animation: aparitieDisparitie 4s forwards;
+    visibility: hidden;
+
+}
+
+@keyframes aparitieDisparitie {
+  0% { opacity: 0; visibility: visible; }
+  10% { opacity: 1; visibility: visible; }
+  90% { opacity: 1; visibility: visible; }
+  100% { opacity: 0; visibility: hidden; }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .continut {
+        padding: 1.2rem;
+    }
+}
+
+
+#username{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#parola{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#btn-login{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #6c867d;
+    color: #1f484c;
+    cursor: pointer;
+}
+
+#btn-login:hover{
+    background-color: #563a4d;
+    color: rgb(82, 105, 107);
+}
+

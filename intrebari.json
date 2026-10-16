@@ -1,0 +1,22 @@
+[
+    {
+        "q": "Numeste un serial sau film din grila postului TV care incepe cu litera D",
+        "a": ["daria"]
+    },
+    {
+        "q": "Numiti un film romanesc care se va televiza saptamana aceasta pe NostalgiaTV",
+        "a": ["4 luni, 3 saptamani si 2 zile", "balanta"]
+    },
+    {
+        "q": "Care este cel mai vechi serial din grila?",
+        "a": ["twin peaks"]
+    },
+    {
+        "q": "Numiti un serial de desene animate care se difuzeaza pe post",
+        "a": ["copii de la 402", "daria", "zambetul lui sharon", "ce-i cu andy", "spongebob", "insula dramei totale"]
+    },
+    {
+        "q": "Care este ultimul serial adaugat pe post?",
+        "a": ["twin peaks"]
+    }
+]

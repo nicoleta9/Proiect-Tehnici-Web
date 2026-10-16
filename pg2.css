@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+  
+  background-image: url('fis.gif');
+  /*background-color: rgb(47, 96, 12);*/
+
+  background-attachment: fixed;
+ 
+}
+
+.corp_principal {
+
+  background-color: #7fc7d4;
+  box-shadow: 30px 30px 30px rgba(78, 20, 20, 0.578);
+  margin-left:200px;
+  padding-bottom: 15px;
+  top:0;
+  border-radius: 30px;
+  margin-bottom: 120px;
+  
+}
+
+
+
+
+#top{
+
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: #176979;
+    margin-bottom: 30px;
+     color:#7fc7d4;
+}
+
+.zi{
+
+    margin-left:50px;
+    margin-bottom: 50px;
+    color:rgb(13, 87, 97);
+    font-size: 50px;
+    margin-top: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+
+.cont_txt{
+
+    font-family: fantasy;
+    margin-left: 20px;
+    color:#392234e1;
+}
+
+.show{
+  display: flex;              /* aliniere orizontală */
+  align-items: flex-start;    
+  gap: 15px;    
+  margin-bottom: 40px;
+  background-color: #a46995;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-right: 500px;
+  padding-bottom: 30px;
+  margin-right: 100px;
+  margin-left: 30px;
+  border-style: solid;
+  border-color: #f7b9a1;
+  
+
+}
+
+
+
+
+img{
+    
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    object-position: top;
+    margin-left:20px;
+
+}
+
+
+.titlu{
+    font-size: 40px;   
+    padding-right: 100px;
+    
+}
+
+.ora{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    color:#602a55d6;
+    
+
+}
+
+
+.home{
+
+    height:80px;
+    width: 150px;
+    background-color:#a46995;
+    border-style: solid;
+    color:#176979;
+    border-color: #f7b9a1;
+    border-radius: 90px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:25px;
+    margin-left: 5px;
+    transition: color 1s, background-color 1s, box-shadow 1s;
+    position: fixed;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.home:hover{
+
+    color: #a46995;
+    background-color: #f7b9a1;  
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.18);
+    background-image: url('ochi.gif');
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.home:active{
+    background-color: #f7b9a1;
+    transform: scale(1.2);   
+}
+
+footer{
+    margin-top:50px;
+    margin-bottom: 50px;;
+    text-align: center;
+    background-color: #ec769389;
+    font-family: fantasy;
+    font-size: 30px;
+    border-radius: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    color: #1a6a82;
+    padding-left: 50px;
+
+}
+
+
+footer>p::after{
+    content:"🤩";
+}
+

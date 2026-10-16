@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <title>Quiz</title>
+    <link rel="icon" type="image/gif" href="icon.gif">
+    <meta charset="UTF-8">
+    <meta name="description" content="Site-ul Oficial al Postului TV NostalgiaTV">
+    <meta name="keywords" content="nostalgie seriale tv filme informatii">
+    <meta name="author" content="M">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Quiz.css">
+    <script src="quiz.js"></script>
+
+</head>
+
+<body>
+   <button class="home"> Home</button>
+   <a href="primapg.html" class="home">Home</a>
+  
+  <header id="top">
+    <h1>Quiz</h1>
+  </header>
+
+<main>
+    <div class="continut">
+        <div id="sectiune-login">
+            <h2>Autentificare</h2>
+            <div class="formular">
+                <input type="text" id="username" placeholder="Utilizator">
+                <input type="password" id="parola" placeholder="Cod Acces (ex: TV-2024)">
+                <button id="btn-login">Login</button>
+            </div>
+            <p id="mesaj-eroare" style="color: red;"></p>
+        </div>
+
+        <div id="sectiune-quiz" style="display: none;">
+            <h2 id="mesaj-bunvenit"></h2>
+            
+            <div id="zona-start-quiz">
+                <h3>Testează-ți cunoștințele</h3>
+                <aside id="text-surpriza">
+                    <p>Răspunde corect la cât mai multe întrebări!</p>
+                </aside>
+                
+                <button id="start_btn">Începe Quiz</button>
+                <canvas id="canvas-premiu" width="200" height="150" style="display: none; margin: 10px auto;"></canvas>
+            </div>
+
+            <button id="btn-logout" style="margin-top: 20px; background-color: #555; color: white;">Logout</button>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>
+    Succes!
+    </p>
+</footer>
+</body>
+</html>
